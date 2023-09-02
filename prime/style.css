@@ -1,0 +1,479 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    overflow-y: visible;
+   
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+   
+}
+#header{
+    z-index: 100;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://getwallpapers.com/wallpaper/full/4/6/a/1308983-full-size-3d-red-wallpaper-1920x1080.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 47, 47);
+    
+    
+}
+#primeimage{
+    position: relative;
+    top:-75%;
+    left: 46%;
+    
+    
+
+}
+#primeimage img{
+    position: absolute;
+    height:450px;
+    z-index: 1000;
+}
+#content{
+    z-index: 101;
+    position: relative;
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+    top: -75%;
+    left: 8%;
+    
+}
+
+#content h1{
+    
+    color: white;
+    font-size: 80px;
+    font-family: 'Anton', sans-serif;
+}
+.ordernowbutton{
+    position:absolute;
+    top:45%;
+    left: 71%;
+    z-index: 2000;
+    padding: 10px;
+    width: 130px;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Gilroy';
+    font-weight: 900;
+    font-size: 18px;
+    background-color: rgb(192, 35, 192);
+    color: white;
+    animation-iteration-count: infinite;
+}
+button:hover{
+    cursor: pointer;
+    animation: none;
+    background-color: rgb(250, 250, 250);
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    
+}
+nav i{
+    padding-top: 10px;
+    position: absolute;
+    left: 2%;
+    color: white;
+
+}
+nav a{
+    position: relative;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: white;
+    left: 4%;
+    font-size: 18px;
+    font-style: italic;
+
+
+    
+}
+.page2{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+    
+    
+}
+.image1 img{
+    position: absolute;
+    left: 18%;
+    height: 300px;
+    width: 400px;
+    z-index: 99;
+    border-radius: 15px;
+}
+.image2 img{
+    top: 37%;
+    left: 45%;
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    z-index: 100;
+    border-radius: 15px;
+}
+.imageflexcontainer{
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.page1{
+    
+    display: flex;
+    height: 80%;
+    width: 100%;
+}
+.left{
+    position: relative;
+    height: 100%;
+    width: 45%;
+    background-color:wheat;
+}
+.right{
+    height: 100%;
+    width: 55%;
+    background-image: url(https://wallpaper.dog/large/20592936.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.left img{
+    height: 90px;
+    width: 90px;
+}
+.imagelogo{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    top: 13%;
+    
+    gap: 30px;
+}
+.imagelogo2{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    top: 18%;
+}
+.contentinleftside{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25%;
+    left:18%;
+    padding: 13px 20px;
+}
+.contentinleftside p{
+    font-style: bold;
+    font-weight: 500;
+    font-family: 'Gilroy';
+    font-size: 17px;
+    line-height: 27px;
+    color: rgba(87, 78, 78, 0.904);
+}
+#tryprimebutton{
+    height: 40px;
+    width: 120px;
+    padding: 10px;
+    background-color: rgb(126, 241, 126);
+    font-family: 'Gilroy';
+    border: none;
+    font-weight: 700;
+    border-radius: 10px;
+    position: absolute;
+    top: 90%;
+    left: 43%;
+
+}
+#tryprimebutton:hover{
+    background-color: white;
+}
+
+.right h2{
+    
+    top: 50%;
+    color: white;
+    font-size: 80px;
+    font-family: 'Anton', sans-serif;
+    transform: rotate(-90deg);
+    
+    
+}
+.right #blueraspberycontainer{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    left:5%;
+    position: relative;
+    
+}
+.page2{
+    overflow: hidden;
+    position: relative;
+
+}
+.page2 h3{
+    color:rgb(0, 175, 175);
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+
+}
+.page2 #stay{
+    color: rgb(11, 173, 11);
+    font-size: 80px;
+    position: absolute;
+    top: 20%;
+    left: 53%;
+}
+.page2 #hydrated{
+    position: absolute;
+    font-size: 70px;
+    top: 55%;
+    left: 20%;
+}
+.stores{
+    height: 30%;
+    width: 100%;
+    position: relative;
+    padding-bottom: 500px;
+    
+}
+.storesimagecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.availablecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.stores h2{
+    color:#e75050;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+
+
+}
+.footer{
+    
+    padding-top: 20px;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    
+}
+.aboutcontainer{
+    position: relative;
+    height: 300px;
+    width: 400px;
+}
+.footer h3,p{
+    font-style: bold;
+    padding: 0px  10px;
+    color: white;
+    font-family: 'Gilroy';
+    line-height: 30px;
+}
+.footer h3{
+    padding-bottom: 20px;
+}
+.footer p{
+    padding-bottom: 25px;
+}
+.footercontainer{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    padding: 20px 30px;
+
+}
+.footercontainer i{
+    position: relative;
+    left: -4%;
+    color: white;
+    margin-left: 30px;
+    cursor: pointer;
+    
+    
+}
+.energyconatiner{
+    height: 300px;
+    width: 300px;
+}
+.energyconatiner h4{
+    color: white;
+    line-height: 40px;
+    font-size: 15px;
+    font-style: italic;
+}
+.verifyyourprimeconatiner h4{
+    color: white;
+    line-height: 40px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+@media (max-width:600px) {
+    #header{
+        background-image: url(./images/redbackground.jpg);
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+
+    }  
+    #primeimage img{
+        height: 350px;
+    }
+    #primeimage{
+        top: -70%;
+        left: 30%;
+    }
+    #content{
+        position: relative;
+        left: 1.8%;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        transform: rotate(-90deg);
+    }
+    .ordernowbutton{
+        position: relative;
+        top: -53%;
+        left: 35%;
+        background-color: white;
+        color: black;
+    }
+    .page1{
+        padding-bottom: 300px;
+    }
+    .right{
+        display: none;
+    }
+    .left{
+        width: 100vw;
+        position: relative;
+        background-color: white;
+    }
+    .contentinleftside{
+        width: 100%;
+        left:2%;
+        
+    }
+    .contentinleftside p{
+        font-size: 13px;
+    }
+    #tryprimebutton{
+        height: 35px;
+        width: 100px;
+        position: relative;
+        top: 25%;
+        left: 37%;
+        
+    }
+    .image1 img{
+        height: 200px;
+        width: 200px;
+        left: 2%;
+        top: 10%;
+    }
+    .image2 img{
+        height: 200px;
+        width: 200px;
+    }
+    .page2 #stay{
+        font-size: 50px;
+        left: 60%;
+    }
+    .page2 #hydrated{
+        font-size: 40px;
+        left: 3%;
+        top: 45%
+    }
+    .stores{
+        height: 15%;
+        padding-bottom: 200px;
+    }
+    .storesimagecontainer img{
+        height: 50px;
+        width: 120px;
+    }
+    .stores h2{
+        font-size: 30px;
+    }
+    .footercontainer{
+        height: 100%;
+        flex-direction: column;
+        
+    }
+    .footer h3{
+        padding-bottom: 10px;
+    }
+    .aboutcontainer{
+        height: 300px;
+        width: 100%;
+        padding-bottom:10px;
+    }
+    .energyconatiner{
+        height: 200px;
+        width: 200px;
+        padding-bottom: 30px;
+    }
+    .energyconatiner h4{
+        font-size: 13px;
+        line-height: 35px;
+    }
+    .verifyyourprimeconatiner{
+        height: 800px;
+        width: 100%;
+        
+    }
+    .verifyyourprimeconatiner h4{
+        font-size: 13px;
+        line-height: 35px;
+    }
+    .footer{
+        height: 100vh;
+        width: 100vw;
+    }
+    .footer p{
+        line-height: 27px;
+        padding-bottom: 2px;
+    }
+    
+}
